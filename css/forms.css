@@ -1,0 +1,79 @@
+.form-custom
+{
+	margin: 1.5em 0 0;
+}
+
+.form-custom .bloco
+{
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 1em;
+}
+
+.form-custom .ui-input-text
+{
+	border: 0 none;
+}
+
+.form-custom .input
+{
+	background: #fff;
+	color: #A5AC37;
+	font-family: "neo_sansregular", "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.4em;
+	padding: 1.3em;
+	border-radius: 0px;
+	border: 0 none;
+	border-style: none;
+	box-shadow: initial;
+	float: left;
+	width: 100%;
+	text-shadow: none;
+}
+
+.form-custom .textarea
+{
+	height: 100px;
+	max-height: 100px;
+	min-height: 100px;
+}
+
+.form-custom .ui-input-text
+{	
+	overflow: hidden;
+	margin: 0;
+	border-radius: 0;
+}
+
+.ui-input-btn input
+{
+	text-shadow: none;
+}
+
+.form-custom .ui-input-btn
+{
+    background: #A5AC37;
+    border-radius: 0;
+    border: 0 none;
+    color: #fff;
+    display: block;
+    font-family: 'neo_sansmedium', "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: none;
+    margin: 0 0 1.5em;
+
+    webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.form-custom .ui-input-btn:hover
+{
+	background-color: #ccc;
+}

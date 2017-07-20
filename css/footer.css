@@ -1,0 +1,124 @@
+footer,
+#ft-principal,
+.ui-footer
+{
+	background: #11110A;
+	border: #11110A 1px solid;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.footer-intena
+{
+	padding: 3em 3em 1em;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+#redesSociais
+{
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 175px;
+    overflow: hidden;
+}
+
+#redesSociais li
+{
+	float: left;
+	border-radius: 2px;
+	overflow: hidden;
+	width: 38px;
+	height: 35px;
+	margin-right: 5px;
+}
+
+#redesSociais li:last-child
+{
+	margin-right: 0;
+}
+
+#redesSociais li a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#redesSociais li a span
+{
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    padding: 7px 0;
+}
+
+.face-icon a
+{
+	background-color: #3B5998;
+}
+
+.twitter-icon a
+{
+	background-color: #55ACEE;
+}
+
+.instagram-icon a
+{
+	background-color: #3F729B;
+}
+
+.youtube-icon a
+{
+	background-color: #CD201F;
+}
+
+.ui-footer p
+{
+	margin: 0 0 1em;
+}
+
+.ui-footer p,
+.ui-footer small
+{
+	font-size: 1.1em;
+	color: #ccc;
+}
+
+.ui-footer img
+{
+	display: block;
+	margin: 0 auto 2em;
+}
+
+.info-footer
+{
+	padding: 2.5em 0;
+}
+
+.info-footer:last-child
+{
+	padding-bottom: 0;
+}
+
+.ui-footer a
+{
+	color: #BFC64F;
+
+	/* transition */
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;		
+}
+
+.ui-footer a:hover
+{
+	color: #fff;
+}

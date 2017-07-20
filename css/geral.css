@@ -1,0 +1,59 @@
+/* ======== Geral ======== */
+
+body, input, select, textarea, button, .ui-btn
+{
+	font-size: 10px;
+	font-family: 'neo_sansregular', "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body *
+{
+	text-shadow: none;
+	font-weight: normal !important;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: 'neo_sansbold', "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 1.2em;
+}
+
+strong
+{
+	font-family: 'neo_sansbold', "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+strong.semi-bold
+{
+	font-family: 'neo_sansmedium', "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul li, ol li, dt dd, p
+{
+	font-size: 1.1em;
+}
+
+a
+{
+	text-decoration: none;
+	text-shadow: none;
+}
+
+img
+{
+	display: block;
+	margin: 0;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper
+{
+	text-shadow: none;
+}
+
+.ui-content
+{
+	padding: 0;
+	margin-bottom: -1px;
+}

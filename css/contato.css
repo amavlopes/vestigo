@@ -1,0 +1,106 @@
+#contato
+{
+	/*background: #111;*/
+	background: #111 url("../imgs/contato/bg-mn-small.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	padding: 1em;
+}
+
+#contato .ui-content
+{
+	position: relative;
+	z-index: 1;
+	border-bottom: #11110A 1px solid;
+}
+
+.header-contato
+{
+	text-align: center;
+	padding: 15px 0;
+}
+
+.header-contato h3
+{
+	color: #fff;
+	font-size: 2.3em;
+	margin: 0;
+}
+
+.header-contato p
+{
+	color: #707070;
+	font-size: 1.3em;
+	margin: 0;
+}
+
+.icon-submit
+{
+	background: #BFC64F url(../imgs/icon-enviar.png) no-repeat 50% 45%;
+    border: 0 none;
+    box-shadow: none;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6.5%;
+    /* height: 56px; */
+    padding: 8.5% 6.5%;
+    margin: 0;
+    text-indent: -9999px;
+    z-index: 10;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.bloco:hover .icon-submit
+{
+	background-color: #999;
+}
+
+#contato .form-custom .ui-input-btn
+{
+	padding: 6%;
+	width: 69%;
+	float: right;	
+	margin: 0;
+}
+
+@media screen and (min-width: 667px) {
+	
+	.icon-submit
+	{
+		background-position: 50% 40%;
+	}
+
+}
+
+@media screen and (min-width: 568px) {
+
+	.icon-submit 
+	{
+	    width: 2%;
+	    padding: 6%;
+	}
+
+	#contato .form-custom .ui-input-btn
+	{
+	    padding: 4%;
+	    width: 78%;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+	
+	#contato .form-custom .ui-input-btn {
+	    padding: 5.5%;
+	    width: 69.5%;
+	    float: right;
+	    margin: 0;
+	}
+
+}	

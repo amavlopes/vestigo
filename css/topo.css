@@ -1,0 +1,146 @@
+/* ======== Header ======== */
+
+.ui-header,
+.ui-footer
+{
+	border-style: none;
+}
+
+.hd-principal,
+.ui-header
+{
+	background-color: #fff !important;
+}
+
+.ui-header .ui-title
+{
+	margin: 0;
+	padding: 1.5em 0;
+	text-align: left;
+}
+
+#logo h1
+{
+	font-size: 1px;
+}
+
+#logo .ui-link
+{
+	background: url("../imgs/vestigo.png") no-repeat 20px 50% !important;
+	display: block;
+	text-indent: -99999px;
+	height: 24px;
+}
+
+#icon-menu,
+#icon-close
+{
+	border-style: none;
+    box-shadow: none;
+    color: #A5AC37;
+    font-size: 17px;
+    background: transparent;
+    text-shadow: none;
+    border: 0 none;
+}
+
+/* Navbar Mobile */
+
+	#navbar
+	{
+		background-color: #007E8A;
+		box-shadow: none;
+		border-style: none;
+	}
+
+	#navbar .ui-navbar
+	{
+		padding: 0;
+	}
+
+	#navbar li
+	{
+		text-shadow: none;
+		text-align: right;
+	}
+
+	#navbar li > a
+	{
+		border: 0 none;
+		color: #fff;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		text-shadow: none;
+		text-decoration: none;
+	}
+
+	#navbar .ui-listview
+	{
+		margin: 1.5em 0 0;
+	}
+
+	#close-menu
+	{
+		color: #fff;
+	}
+
+/* NavBar Custom */
+
+	#navbar-custom
+	{
+		background-color: #007E8A;
+		position: fixed;
+		top: -215px;
+		left: 0;
+		width: 100%;
+		z-index: 90;
+	}
+
+	#navbar-custom ul
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	#navbar-custom li
+	{
+		text-align: right;
+		padding: 1em 2em;
+	}
+
+	#navbar-custom li:first-child
+	{
+		padding-top: 1.8em;
+	}
+
+	#navbar-custom li:last-child
+	{
+		padding-bottom: 1.8em;
+	}
+
+	#navbar-custom li > a
+	{
+		border: 0 none;
+		color: #fff;
+		font-size: 1.2em;
+		text-transform: uppercase;
+
+		/* transition */
+		-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-ms-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;			
+	}		
+
+	#navbar-custom li > a:hover,
+	#navbar-custom li > a.active
+	{
+		color: #A5AC37;
+	}
+
+	#icon-close
+	{
+		display: none;
+	}
